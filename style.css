@@ -70,3 +70,40 @@ font-size: 25px;
 .second__sentence {
 font-size: 1.3em;
 }
+
+nav {
+background-color: #f4f4f4;
+padding: 20px;
+position: sticky;
+top: 148px;
+
+}
+.parent__li {
+white-space: nowrap;
+max-width: 1200px;
+margin: 0 auto;
+}
+
+nav li {
+width: 25%;
+display: inline-block;
+
+}
+
+
+a {
+
+text-decoration: none;
+color: #4b4b4b;
+
+}
+
+.join {
+color: #f63232;
+
+
+}
+
+
+
+
