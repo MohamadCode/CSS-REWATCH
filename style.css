@@ -1,7 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.main__img {
+display: inline-block;
+
+}
+
 header {
+background-color: #f63232;
+padding: 20px;
+text-align: center;
+position: fixed;
+width: 100%;
+z-index: 1;
+top: 0;
+left: 0;
+}
 
-    
-
+.header {
+color: white;
+border: 8px solid white;
+padding: 20px 12px;
+display: inline-block;
+font-size: 20px;
+border-radius: 36px;
 }
 
 .banner {
@@ -12,7 +44,7 @@ position: relative;
 
 
 .banner img {
-width: 100%;
+max-width: 100%;
 
 
 
@@ -22,15 +54,19 @@ width: 100%;
 .banner .welcome{
 background-color: rgba(184, 110, 13, 0.345);
 color: white;
-padding: 24px;
+padding: 24px 20px;
 position: absolute;
 left: 0px;
-top: 30%;
+top: 27%;
 
 
 }
 
 .banner h2 {
-font-size: 72px;
+font-size: 25px;
 
+}
+
+.second__sentence {
+font-size: 1.3em;
 }
