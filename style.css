@@ -176,10 +176,31 @@ footer {
     text-align: center;
 }
 
+
+nav li a:hover {
+    text-decoration: underline;
+    
+
+}
+
+.images li:hover {
+    position: relative;
+    top: -4px;
+}
+
 .button__hover:hover {
 background-color: black;
 
 }
+
+form input:focus {
+    border: 4px dashed red;
+
+    
+}
+
+
+
 
 button {
 animation: float 2000ms infinite alternate-reverse;
@@ -189,6 +210,6 @@ transition: all 300ms;
 }
 
 button:hover {
-    background-color: black;
-    color: white
+        background-color: black;
+        color: white;
 }
