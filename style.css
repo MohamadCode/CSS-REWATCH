@@ -198,8 +198,14 @@ form input:valid {
     border: 6px solid #71d300;
 }
 
+nav li:first-child {
+    border: 2px solid #f63232;
+}
 
-
+.main__content--p::first-line {
+    font-weight: bold;
+    font-size: 1.2em;
+}
 
 
 
