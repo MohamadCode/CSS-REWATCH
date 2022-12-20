@@ -207,7 +207,19 @@ nav li:first-child {
     font-size: 1.2em;
 }
 
+.join__p::first-letter {
+    font-size: 1.5em;
 
+}
+
+p::selection {
+    background-color: red;
+    color: white;
+}
+
+p::after {
+    content: ':)';
+}
 
 button {
 animation: float 2000ms infinite alternate-reverse;
