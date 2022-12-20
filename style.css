@@ -188,16 +188,17 @@ nav li a:hover {
     top: -4px;
 }
 
-.button__hover:hover {
-background-color: black;
-
-}
-
 form input:focus {
     border: 4px dashed red;
 
     
 }
+
+form input:valid {
+    border: 6px solid #71d300;
+}
+
+
 
 
 
@@ -210,6 +211,6 @@ transition: all 300ms;
 }
 
 button:hover {
-        background-color: black;
-        color: white;
+        background-color: red;
+        color: white
 }
